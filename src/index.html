@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Legal Solution</title>
     <link rel="stylesheet" href="output.css">
+    <link rel="shortcut icon" href="images/icons/business.png" type="image/x-icon">
     <!-- necessary fonts -->
     <!-- font EB Garamond -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,10 +15,108 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
-    <h1 class="text-3xl font-Garamond text-center">Legal notice</h1>
-    <h1 class="text-3xl font-poppins text-center">Legal notice</h1>
-    <button class="btn btn-error">submit</button>
+    <!-- header-section -->
+     <header class="container mx-auto pt-4 md:px-8 font-poppins">
+        <!-- nav section -->
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16" />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                  <li><a>home</a></li>
+                  <li><a>service</a></li>
+                  <li><a>cases</a></li>
+                  <li><a>blog</a></li>
+                  <li><a>contact us</a></li>
+                </ul>
+              </div>
+              <a class="text-xl">
+                  <img src="images/icons/logo2.png" alt="business image">
+              </a>
+            </div>
+
+            <!-- nav-option -->
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1 font-poppins">
+                <li><a class="capitalize text-[#707070]" href="#">home</a></li>
+                <li>
+                  <a class="capitalize text-[#707070]" href="#">service
+                    <i class="fa-solid fa-chevron-right hidden lg:block"></i>
+                  </a>
+                  
+                </li>
+                <li>
+                  <a class="capitalize text-[#707070]" href="#">cases
+                    <i class="fa-solid fa-chevron-right hidden lg:block"></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="capitalize text-[#707070]" href="#">blog
+                    <i class="fa-solid fa-chevron-right hidden lg:block"></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="capitalize text-[#707070]" href="#">contact us
+                    <i class="fa-solid fa-chevron-right hidden lg:block"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+              <a class="btn text-white px-6 bg-[#B68C5A]">Free Consultation</a>
+            </div>
+          </div>
+
+         <!-- hero-section -->
+          <div class="hero min-h-screen">
+            <img class="h-[550px] z-10" src="images/others/Rectangle 5.png" alt="">
+            <img class="w-full object-cover h-[550px] rounded-md" src="images/others/banner.png" alt="banner image">
+            <div class="hero-content text-center z-20">
+              <div class="max-w-2xl">
+                <h1 class="text-5xl md:text-5xl lg:text-7xl font-bold font-Garamond text-[#fffffff0]">
+                  We Provide Effective Legal Solutions
+                </h1>
+                <p class="py-6 text-[#ffffffcb]">
+                  Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+                  quasi. In deleniti eaque aut repudiandae et a id nisi.
+                </p>
+                  <input
+                  type="text"
+                  placeholder="Search your service"
+                  class="input input-bordered input-xl w-full max-w-60 md:max-w-lg mr-3" />
+                <button class="btn bg-[#B68C5A] px-6 text-white outline-none border-none rounded-md">
+                  Search
+                </button>
+              </div>
+            </div>
+          </div>
+     </header>
+
+    <!-- main-section -->
+     <main></main>
+
+    <!-- footer-section -->
+     <footer></footer>
+
 </body>
 </html>

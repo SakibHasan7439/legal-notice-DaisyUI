@@ -11,6 +11,10 @@ module.exports = {
       colors: {
         'custom-dark': 'rgb(17, 17, 17)',
       },
+
+      backgroundImage: {
+        'footer-texture': "url('/images/others/Rectangle-7.png')",
+      }
     },
   },
   plugins: [require('daisyui')]
